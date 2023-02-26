@@ -1,2 +1,2 @@
-# library-management-system
+# library_management_system
 Library Management System is ...
