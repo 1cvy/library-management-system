@@ -100,7 +100,7 @@ int main()
                                         cout << "New password: ";
                                         getline(cin, user_input);
                                         user.set_password(user_input);
-                                        cout << "New role: ";
+                                        cout << "New role (Admin|Librarian): ";
                                         getline(cin, user_input);
                                         user.set_role(user_input);
                                         user_manager.add_user(user);
