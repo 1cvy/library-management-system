@@ -1,4 +1,3 @@
-# library_management_system
 PROJECT: LIBRARY MANAGEMENT SYSTEM
 
 DESCRIPTION
@@ -23,7 +22,7 @@ Librarian can use sorting features (A-Z or Z-A)
 UI DESIGN
 Account Authentication:
 LIBRARY MANAGEMENT SYSTEM
-[1] LOGIN ACCOUNT
+[1] LOGIN
 [0] CLOSE
 Users just need to press keys from their keyboards to proceed forward; they donâ€™t need to input their option number and press enter.
 1.1. Login Account
@@ -33,6 +32,10 @@ Users just need to press keys from their keyboards to proceed forward; they donâ
 There are 2 types of accounts which are admin and librarian. Admin have access to user account management. Librarians have access to book management.
 1.3. Close
 	This option will close the program immediately.
+
+
+
+
 After user successfully log in to their account they will be greeted with this menu:
 1.1.2. For admin account
 	     	ADMIN
@@ -44,7 +47,7 @@ After user successfully log in to their account they will be greeted with this m
 			[5] VIEW ALL USERS
 			[6] SAVE ALL USERS TO FILE
 			[7] LOAD ALL USERS FROM FILE
-			[0] LOG OUT
+			[0] LOGOUT
 			1.1.2.1.1. If users choose option [1]
 				ADD USER
 				Username: Librarian
@@ -71,6 +74,8 @@ If the username is not in the system then there will be a message telling users 
 				[N] No
 				Then:
 You have successfully edited an user account from the system.
+
+
 1.1.2.1.3. If user choose option [3]
 	DELETE USER
 				Search Username: Librarian
@@ -107,6 +112,11 @@ All user accounts data will be saved to a binary file.
 All user accounts data will be loaded from a binary file.
 		1.1.2.2. If user choose option [0]
 They will be logged out of the account and go back to the first menu of the system.
+
+
+
+
+
 	1.1.3. For librarian account
 	     	LIBRARIAN
 			[1] ADD BOOK
@@ -117,7 +127,7 @@ They will be logged out of the account and go back to the first menu of the syst
 			[6] VIEW ALL BOOKS
 [7] SAVE ALL BOOKS TO FILE
 			[8] LOAD ALL BOOKS FROM FILE
-			[0] LOG OUT
+			[0] LOGOUT
 	1.1.3.1.1. If users choose option [1]
 				ADD BOOK
 				What type of book?
@@ -147,6 +157,10 @@ If the book is not in the system then there will be a message telling users that
 				New book language: English
 				Then:
 You have successfully edited a book from the system.
+
+
+
+
 1.1.3.1.3. If user choose option [3]
 	DELETE BOOK
 				Search Name: Book A
