@@ -104,6 +104,7 @@ int main()
                                         getline(cin, user_input);
                                         user.set_role(user_input);
                                         user_manager.add_user(user);
+                                        cout<<"You have successfully added an user!!"<<endl;
                                         system("pause");
                                         break;
                                     }
